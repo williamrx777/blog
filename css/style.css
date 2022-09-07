@@ -136,6 +136,7 @@ a{
 	justify-content: space-between;
 	padding-right: 15px;
 	padding-left: 15px;
+	align-items: center;
 }
 .link__footer{
 	display: flex;
@@ -149,7 +150,6 @@ a{
 }
 .icons__footer{
 	width: 20px;
-	
 }
  
 
