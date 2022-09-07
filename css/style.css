@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{
+	width: 80%;
+	padding-left: 10%;
+}
+.row{
+	overflow: inherit;
+	color: darkgray;
+	text-align: center;
+	padding-top: 12px; 
+	font-size: 18px;
+}
+#logo img{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 100px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: white;	
+}
+.header{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	
+	
+}
+.header__content{
+	clear: both;
+	padding-top: 29px;
+	overflow: auto;
+}
+.saudacao {
+	text-align: center;
+	color: grey;
+}
+#offe {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+
+#content .sidebar{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	float: left;
+	padding-bottom: 57px;
+	padding-left: 15px;
+	/* padding-top: 57px; */
+	clear: both;
+	background-color: white;
+	color: gray;
+}
+.menu {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	gap: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: grey; 
+	padding: 12px 0 8px 0 ;
+	font-family: sans-serif;
+
+}
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: grey;
+	text-align: center;
+}
+#menubar li {
+	margin-bottom: 8px;
+}
+.barmenu__link {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: capitalize;
+	list-style-type: none;
+	text-decoration: none;
+	color: grey; 
+}
+.barmenu ul {
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	color: grey; 
+	padding-left: 0;
+}
+.barmenu__title {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.division {
+	border-bottom: 4px solid grey;
+	width: 100%;
+	border-radius: 100%;
+}
+
+.price .product__contect {
+	font-size: 18px;
+	
+}
+.conteiner__content{
+	display: flex;
+	gap: 20px;
+	padding-left: 20px;
+	flex-wrap: wrap;
+}
+.content__info{
+	text-align: center;
+	font-family: sans-serif;
+}
+  .content__Button{
+	text-transform: uppercase;
+	background-color: rgba(208,207,207,1.00);
+	color: rgba(255,255,255,1.00);
+}
+.conteiner__footer{
+	background-color: rgba(208,207,207,1.00);;
+	color: rgba(255,255,255,1.00);
+	margin-top: 20px;
+	padding: 40px 0 40px 0;
+}
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+}
+.icons__footer{
+	width: 20px;
+	
+}
