@@ -29,6 +29,9 @@
 	
 	
 }
+.header__container{
+	width: 100%;
+}
 .header__content{
 	clear: both;
 	padding-top: 29px;
@@ -152,5 +155,24 @@ a{
 	width: 20px;
 }
  
-
-
+@media screen and (max-width: 600px) and (min-width: 150px) {
+	#content .sidebar {
+		float: none;
+		display: flex;
+		flex-direction: column;
+	}
+	.menu{
+		flex-wrap: wrap;
+		justify-content: normal;
+	}
+	.conteiner__content{
+		justify-content: center;
+	}
+	.conteiner__footer{
+		justify-content: center;
+	}
+	.row__footer{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}
