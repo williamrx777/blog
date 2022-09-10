@@ -155,7 +155,7 @@ a{
 	width: 20px;
 }
  
-@media screen and (max-width: 600px){
+@media screen and (max-width: 425px){
 	#content .sidebar {
 		float: none;
 		display: flex;
